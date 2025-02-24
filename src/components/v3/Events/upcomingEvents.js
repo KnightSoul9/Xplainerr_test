@@ -29,7 +29,7 @@ const UpcomingEvents = ({ event }) => {
           <div className="">
             <Link href={`/events/${event?.slug}`}>
               <button className="leading-16  flex h-[40px] min-h-[40px] w-[292px] flex-shrink-0 cursor-pointer select-none items-center justify-center rounded-full border border-primary bg-primary px-14 font-semibold tracking-tighter text-white shadow-inner outline-none hover:border-[2px]">
-                Register for free
+               Register for ₹199 ($5)
               </button>
             </Link>
           </div>

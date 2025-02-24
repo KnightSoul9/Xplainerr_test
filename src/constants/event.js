@@ -1,14 +1,14 @@
 export const UPCOMING_EVENTS = [
   {
     _id: 20001,
-    image: `https://ik.imagekit.io/zwxa4kttt/courses/event-image.webp?updatedAt=1708533610746`,
-    title: `Lessons from building Google & Uber`,
-    description: `Get insights into the product-building playbook of tech giants like Google & Uber!`,
-    slug: `lessons-from-building-google-uber-20001`,
+    image: "/images/events/api-integration.png",
+    title: `Build an App with Database & API Integration in 30 Minutes`,
+    description: `Get hands-on experience in building an app with seamless database and API integration! 🚀`,
+    slug: `lesson-for-api-integration`,
     timeTable: {
       month: "Feb",
-      date: "29",
-      time: "12:00 - 01:00 pm",
+      date: "27",
+      time: "08:30 - 09:30 pm",
     },
   },
   // {
@@ -26,13 +26,13 @@ export const UPCOMING_EVENTS = [
 ];
 
 export const PAST_EVENTS = [
-  {
-    _id: 3101,
-    image: `https://ik.imagekit.io/zwxa4kttt/courses/event-image.webp?updatedAt=1708533610746`,
-    title: `User Research for Product Managers`,
-    description: `Learn how to build products that resonate with your users, solve their problems, and are resonate with your delightful to use.`,
-    slug: `user-research-for-product-managers-3101`,
-  },
+  // {
+  //   _id: 3101,
+  //   image: `https://ik.imagekit.io/zwxa4kttt/courses/event-image.webp?updatedAt=1708533610746`,
+  //   title: `User Research for Product Managers`,
+  //   description: `Learn how to build products that resonate with your users, solve their problems, and are resonate with your delightful to use.`,
+  //   slug: `user-research-for-product-managers-3101`,
+  // },
   // {
   //   _id: 3102,
   //   image: `https://ik.imagekit.io/zwxa4kttt/courses/event-image.webp?updatedAt=1708533610746`,
@@ -65,22 +65,21 @@ export const PAST_EVENTS = [
 
 export const SINGLE_EVENT_DETAIL = {
   _id: 20001,
-  image: `https://ik.imagekit.io/zwxa4kttt/courses/event-image.webp?updatedAt=1708533610746`,
-  title: `Lessons from building Google & Uber`,
-  description: `Every Product Manager aspires to build products like the tech giants Google & Uber. Join us for a live session with Madhur Chadha, Product Lead at Google Play store and former Product Leader at Uber as he talks about:`,
+  image: '/images/events/api-integration.png',
+  title: `Build an App with Database & API Integration in 30 Minutes`,
+  description: `Want to learn how to quickly build an app with a database and API integration? Join us for a live hands-on session with Venkatesh, Ex-Product Lead at Razorpay, as he walks you through:`,
   keyPoints: [
-    `The product culture at Google and Uber`,
-    `Their approach to product development`,
-    `How they customize their products for different markets`,
-    `What skills are required to become a PM in their team`,
+    `Setting up a database to store user details`,
+    `Building an app to capture user input (name, email, phone number)`,
+    `Creating an API to connect the UI with the database`,
   ],
-  slug: `lessons-from-building-google-uber-20001`,
+  slug: `lesson-for-api-integration`,
   timeTable: {
     month: "Feb",
-    date: "29",
-    time: "12:00 - 01:00 pm",
+    date: "27",
+    time: "08:30 - 09:30 pm",
   },
   speakers: [
-    { name: `Madhur Chadha`, designation: `Product Lead, Google Playstore` },
+    { name: `Venkatesh`, designation: `Ex-Product Lead, Razorpay` },
   ],
 };
