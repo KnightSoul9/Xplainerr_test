@@ -23,7 +23,7 @@ const EventDetail = () => {
           <div className="container mx-auto px-4 pb-16 pt-6 lg:max-w-7xl lg:px-8 lg:py-[56px]">
             {/* Top Part  */}
             <div className="flex flex-col gap-6 lg:flex-row">
-              <div className="lg:basis-8/12">
+              <div className="lg:basis-3/5">
                 <div>
                   <Image
                     src={event?.image}
@@ -39,7 +39,7 @@ const EventDetail = () => {
                   <h2 className="text-xl font-medium   ">{event?.title}</h2>
                 </div>
               </div>
-              <div className="lg:basis-4/12">
+              <div className="lg:basis-2/5">
                 {router?.query?.ref == "past-event" ? (
                   <MissedEventCard event={event} />
                 ) : (

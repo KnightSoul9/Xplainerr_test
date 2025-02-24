@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.13",
     "@next/font": "13.1.6",
     "@notionhq/client": "^2.2.14",
+    "@paypal/react-paypal-js": "^8.8.2",
     "@reduxjs/toolkit": "^1.9.3",
     "@stripe/stripe-js": "^1.52.0",
     "@tailwindcss/typography": "^0.5.9",
