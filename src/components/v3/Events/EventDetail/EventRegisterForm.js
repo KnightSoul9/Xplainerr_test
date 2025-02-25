@@ -1,4 +1,5 @@
 // pages\events\[eventsSlug]\index.js
+
 import useAuthService from "@/src/hooks/auth/useAuthService";
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -206,7 +207,7 @@ const EventRegisterForm = ({ event }) => {
 
           <button
             onClick={() => setPaymentMethod("paypal")}
-            className={`w-full rounded-xl border-2 p-2 text-lg font-medium transition-all duration-300 ${
+            className={`w-full rounded-xl border-2 p-4 text-lg font-medium transition-all duration-300 ${
               paymentMethod === "paypal"
                 ? "border-yellow-500 bg-yellow-500 text-white"
                 : "border-gray-200 bg-white text-gray-700 hover:border-yellow-200 hover:bg-yellow-50"
@@ -219,7 +220,7 @@ const EventRegisterForm = ({ event }) => {
           </button>
         </div>
 
-        <div className="mt-8 flex flex-col items-center">
+        <div className="mt-8">
           <div className={`${paymentMethod === "stripe" ? "block" : "hidden"} flex justify-center`}>
             <stripe-buy-button
               buy-button-id="buy_btn_1QudLSSHcC4n6fvXJcoDu80n"

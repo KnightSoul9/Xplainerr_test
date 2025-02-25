@@ -38,6 +38,13 @@ const EventDetail = () => {
                   <TimeTable event={event} router={router} />
                   <h2 className="text-xl font-medium   ">{event?.title}</h2>
                 </div>
+                <div>
+              <div className="mt-10">
+                <TimeTable event={event} router={router} />
+              </div>
+              {/* event details  */}
+              <Info event={event} />
+            </div>
               </div>
               <div className="lg:basis-2/5">
                 {router?.query?.ref == "past-event" ? (
@@ -49,13 +56,7 @@ const EventDetail = () => {
             </div>
 
             {/* Details part  */}
-            <div>
-              <div className="mt-10 hidden  lg:block">
-                <TimeTable event={event} router={router} />
-              </div>
-              {/* event details  */}
-              <Info event={event} />
-            </div>
+            
           </div>
         </PageLayout>
       )}

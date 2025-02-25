@@ -4,7 +4,7 @@ export const UPCOMING_EVENTS = [
     image: "/images/events/api-integration.png",
     title: `Build an App with Database & API Integration in 30 Minutes`,
     description: `Get hands-on experience in building an app with seamless database and API integration! 🚀`,
-    slug: `Build-an-App-with-Database-&-API-Integration-in-30 -Minutes-venkatesh-gupta-razorpay`,
+    slug: `Build-an-App-with-Database-&-API-Integration-in-30-Minutes-venkatesh-gupta-razorpay`,
     timeTable: {
       month: "Feb",
       date: "27",
@@ -73,7 +73,7 @@ export const SINGLE_EVENT_DETAIL = {
     `Building an app to capture user input (name, email, phone number)`,
     `Creating an API to connect the UI with the database`,
   ],
-  slug: `Build-an-App-with-Database-&-API-Integration-in-30 -Minutes-venkatesh-gupta-razorpay`,
+  slug: `Build-an-App-with-Database-&-API-Integration-in-30-Minutes-venkatesh-gupta-razorpay`,
   timeTable: {
     month: "Feb",
     date: "27",
